@@ -7,7 +7,7 @@ BEGIN
 	IF @CategoryId IS NULL
 	BEGIN
 		SELECT 
-			p.ProductName AS Ürün_Adý,
+			p.ProductName AS urun_Adi,
 			c.CategotyName AS Kategori_Name,
 			sc.SubCategoryName AS AltKaregoriName,
 			pd.ProductCount AS Stock,
@@ -27,7 +27,7 @@ BEGIN
 		ELSE
 		BEGIN
 				SELECT 
-			p.ProductName AS Ürün_Adý,
+			p.ProductName AS urun_Adi,
 			c.CategotyName AS Kategori_Name,
 			sc.SubCategoryName AS AltKaregoriName,
 			pd.ProductCount AS Stock,

@@ -9,7 +9,7 @@ use DonemProje
 
 --DROP TABLE Personn --tabloyu siler
 
---INSERT INTO Personn (PersonId,PersonName,PersonSurname) VALUES (1,'ugurcan','kök')
+--INSERT INTO Personn (PersonId,PersonName,PersonSurname) VALUES (1,'ugurcan','kok')
 
 select*from Personn
 

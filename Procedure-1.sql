@@ -1,10 +1,10 @@
-/*PROCEDURE kod blogudur, istedigin zaman istediðin yerde çaðýrýrsýn, dinamik yapýdýr.  */
+/*PROCEDURE kod blogudur, istedigin zaman istedigin yerde cagirirsin, dinamik yapidir.  */
 
 /*CREATE PROCEDURE dbo.EkranaBas
 AS
 BEGIN
 
-	SELECT 'Ekrana Yazýyý Yazarim'
+	SELECT 'Ekrana Yaziyi Yazarim'
 
 END*/
 EXEC dbo.EkranaBas
@@ -13,7 +13,7 @@ ALTER PROCEDURE dbo.EkranaBas
 AS
 BEGIN
 
-	SELECT 'Ekrana yazýyý yazarim' AS Baslik
+	SELECT 'Ekrana yaziyi yazarim' AS Baslik
 END
 
 CREATE PROCEDURE dbo.PersonelAra
@@ -38,7 +38,7 @@ CREATE PROCEDURE dbo.dbHelp
 AS
 BEGIN
 
-	SELECT o.name AS 'Table Name', c.name AS 'Column Name',TYPE_NAME(c.user_type_id) AS 'Tür' FROM sys.objects o 
+	SELECT o.name AS 'Table Name', c.name AS 'Column Name',TYPE_NAME(c.user_type_id) AS 'Tï¿½r' FROM sys.objects o 
 	inner join sys.columns c  on c.object_id=o.object_id
 	where o.name=@TableName and o.schema_id=schema_id(@SchemaName)
 END

@@ -1,4 +1,4 @@
---Triger: tetikleyici, kayýt attýgýn zaman diðer tablo bundan etkileniyorsa veya etkilenmesini istiyorsan trigger ile yapabilirsin
+--Triger: tetikleyici, kayit ettigin zaman diger tablo bundan etkileniyorsa veya etkilenmesini istiyorsan trigger ile yapabilirsin
 
 use DonemProje
 select * from dbo.Personn

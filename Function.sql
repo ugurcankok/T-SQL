@@ -1,5 +1,5 @@
-/* functionlar deðer döndürür eger sen tablo döndürmek istiyorsan ya store procedure kullanýrsýn ya da view kullanýrsýn. 
-Functionlar yavaþ çalýþýr çok tavsiye edilmez*/
+/* functionlar deger dondurur eger sen tablo dondurmek istiyorsan ya store procedure kullanirsin ya da view kullanirsin. 
+Functionlar yavas calisir cok tavsiye edilmez*/
 
 --use DonemProje
 --select MAX(PersonBirthDate) from dbo.tbl_PersonInfo 

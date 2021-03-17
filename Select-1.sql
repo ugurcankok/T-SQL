@@ -1,4 +1,4 @@
- /*use DonemProje*/
+/*use DonemProje*/
 /*select * from tbl_PersonInfo*/
 /*select PersonName,PersonSurname from tbl_PersonInfo
 
@@ -14,9 +14,9 @@ FROM
 	tbl_PersonInfo
 WHERE 
 	/*PersonID= 14 */
-	/*PersonSurname='kök'*/
+	/*PersonSurname='kÃ¶k'*/
 	/*PersonBirthDate < '2010-08-01' and PersonEmail='kerem@gmail.com' and Role=0*/
-	/*PersonSurname='kök' or PersonName='ugur'*/
+	/*PersonSurname='kok' or PersonName='ugur'*/
 
 /*SELECT 
 	*
@@ -39,9 +39,9 @@ WHERE
 FROM
 	tbl_PersonInfo
 WHERE
-	/*PersonName LIKE 'u%' /*u ile baþlýyordu*/*/
+	/*PersonName LIKE 'u%' /*u ile basliyordu*/*/
 	/*PersonName LIKE '%ur' /* sonu ur ile bitenler*/*/
-	/*PersonEmail LIKE '%can%' /*içinde can geciyordu like hiçbir yerde case sensitive deðildir*/*/
+	/*PersonEmail LIKE '%can%' /*icinde can geciyordu like hicbir yerde case sensitive degildir*/*/
 
 /*use deneme*/
 
@@ -51,7 +51,7 @@ FROM
 	dbo.Ogrenci
 	*/
 /*SELECT
-	/*count(*) as 'TotalRow' /* where ile functionlar kullanýlmaz*/*/
+	/*count(*) as 'TotalRow' /* where ile functionlar kullanilmaz*/*/
 	/*max(OkulNo) as 'BiggestOkulNo'*/
 	/*min(OkulNo) as 'minokulNo'*/
 	/*avg(OkulNo) as 'AVG'*/
@@ -65,20 +65,20 @@ FROM
 	*
 FROM
 	dbo.Ogrenci
---ORDER BY Adý desc /*desc tersten sýralar*/*/
+--ORDER BY Adi desc /*desc tersten siralar*/*/
 
 --GROUP BY 
 /*SELECT 
-	Adý,Soyadý,Okulu
+	Adi,Soyadi,Okulu
 FROM
 	dbo.Ogrenci
-GROUP BY Adý,Soyadý,Okulu --gruplamana yarýyor*/
+GROUP BY Adi,Soyadi,Okulu --gruplamana yariyor*/
 
 /*SELECT
-	Adý,count(*)
+	Adi,count(*)
 FROM
 	dbo.Ogrenci
-GROUP BY Adý --kimden kaç tane var onu gösterir.*/
+GROUP BY Adi --kimden kac tane var onu gosterir.*/
 
 /*SELECT 
 	Okulu,COUNT(*)
@@ -86,7 +86,7 @@ FROM
 	dbo.Ogrenci
 WHERE
 	COUNT(*)>1
-GROUP BY Okulu -- yanlýþ kullaným functionlarla where kullanýlmaz bunun yerine having kullanýrsýn.*/
+GROUP BY Okulu -- yanlis kullanim functionlarla where kullanilmaz bunun yerine having kullanirsin.*/
 
 SELECT 
 	Okulu,COUNT(*)
